@@ -83,3 +83,6 @@
     # automatically process "fixup!" commits when rebasing interactively
     autosquash = true
 
+[user]
+	email = massimo.manzato@gmail.com
+	name = Massimo Manzato

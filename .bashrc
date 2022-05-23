@@ -117,3 +117,8 @@ type __git_ps1 &>/dev/null || function __git_ps1 () { true; }
 
 export PS1="${usercolor}\u@\h${pathcolor} \w${resetcolors}\$(__git_ps1)\n\\$ "
 
+export HISTTIMEFORMAT="%F %T "
+
+eval `keychain --eval id_rsa --eval id_ed25519`
+export EDITOR='vim'
+
