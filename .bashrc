@@ -6,7 +6,7 @@
 [ `uname` = Darwin ] && source $HOME/.osx-compatibility.sh
 
 # list directories before files (if installed version of ls allows this)
-if man ls | grep group-directories-first >&/dev/null; then
+if man ls | grep -P "group-directories-first|group directories before files" >&/dev/null; then
     alias ls='ls --color=auto --group-directories-first'
 fi
 
