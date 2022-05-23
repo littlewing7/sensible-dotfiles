@@ -121,4 +121,5 @@ export HISTTIMEFORMAT="%F %T "
 
 eval `keychain --eval id_rsa --eval id_ed25519`
 export EDITOR='vim'
+source $HOME/smart-bash-history/01-main-settings.sh
 
